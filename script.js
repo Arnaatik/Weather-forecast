@@ -41,7 +41,7 @@ function changeBackground(description) {
     } else if (description.includes("дождь") || description.includes("дождливо")) {
         body.style.backgroundImage = "url('IMG_0717')"; // Замените 'rainy.jpg' на путь к изображению для дождя
     } else {
-        body.style.backgroundImage = "url('IMG_0718')"; // Замените 'default.jpg' на изображение по умолчанию
+        body.style.backgroundImage = "url('IMG_0719')"; // Замените 'default.jpg' на изображение по умолчанию
     }
 
     // Стили для адаптации изображения фона
