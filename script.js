@@ -1,5 +1,5 @@
 async function getWeather() {
-    const apiKey = "0736a6666ec6b328618f1a105d1fd940"; // Замените на ваш API-ключ
+    const apiKey = "70dcb7411a83366ebc45c6cdfd11ae15"; // Замените на ваш API-ключ
     const city = document.getElementById("cityInput").value;
     const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=ru`;
 
