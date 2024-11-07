@@ -35,13 +35,13 @@ function changeBackground(description) {
     const body = document.body;
     
     if (description.includes("ясно")) {
-        body.style.backgroundImage = "url('sunny.jpg')"; // Замените 'sunny.jpg' на путь к изображению для солнечной погоды
+        body.style.backgroundImage = "url('IMG_0716')"; // Замените 'sunny.jpg' на путь к изображению для солнечной погоды
     } else if (description.includes("снег")) {
-        body.style.backgroundImage = "url('snow.jpg')"; // Замените 'snow.jpg' на путь к изображению для снега
+        body.style.backgroundImage = "url('IMG_0715')"; // Замените 'snow.jpg' на путь к изображению для снега
     } else if (description.includes("дождь") || description.includes("дождливо")) {
-        body.style.backgroundImage = "url('rainy.jpg')"; // Замените 'rainy.jpg' на путь к изображению для дождя
+        body.style.backgroundImage = "url('IMG_0717')"; // Замените 'rainy.jpg' на путь к изображению для дождя
     } else {
-        body.style.backgroundImage = "url('default.jpg')"; // Замените 'default.jpg' на изображение по умолчанию
+        body.style.backgroundImage = "url('IMG_0718')"; // Замените 'default.jpg' на изображение по умолчанию
     }
 
     // Стили для адаптации изображения фона
